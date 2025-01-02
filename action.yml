@@ -2,8 +2,8 @@
 name: 'Markdown to PDF and HTML'
 description: 'Creates PDF and HTML files from Markdown using the GitHub (or custom) theme.'
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: node20
+  image: src/github_interface.js
 
 inputs:
   input_path:

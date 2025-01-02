@@ -191,3 +191,13 @@ jobs:
 
 Any contributions are helpful, please make a pull-request. If you would like to discuses a new feature, please create an
 issue first.
+
+## LaTeX
+
+$`\sqrt{3x-1}+(1+x)^2`$
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```

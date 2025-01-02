@@ -1,3 +1,5 @@
+name: Test
+
 on:
   push:
     branches:
@@ -5,12 +7,8 @@ on:
   pull_request:
   
 jobs:
-  test-build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: docker build .
-  test-usage:
+  readme-to-pdf:
+    name: README.md to PDF,HTML
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +16,7 @@ jobs:
         with:
           input_path: README.md
           output_dir: generated
-          build_html: false
+          build_html: true
       - uses: actions/upload-artifact@v4
         with:
           name: readme

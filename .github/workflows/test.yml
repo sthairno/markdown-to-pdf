@@ -1,13 +1,12 @@
-name: Test
+name: GitHub Actions Test
 
 on:
   push:
     branches:
       - master
-  pull_request:
   
 jobs:
-  readme-to-pdf:
+  readme:
     name: README.md to PDF,HTML
     runs-on: ubuntu-latest
     steps:

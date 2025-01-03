@@ -197,3 +197,11 @@ issue first.
 $`\sqrt{3x-1}+(1+x)^2`$
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+### Third-Party Code
+
+This project includes code from the following MIT-licensed project:
+
+- **[actions/javascript-action](https://github.com/actions/javascript-action)**  
+  Copyright GitHub  
+  Licensed under the MIT License.
